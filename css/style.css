@@ -1,13 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,400..900;1,14..32,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;1,400&display=swap');
-.font-textAll{
-    font-family: "Geologica", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+
+.font-textAll {
+  font-family: "Geologica", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
-.text-banner{
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: normal;
-    }
+
+.text-banner {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.swiper-wrapper {
+  transition-timing-function: linear;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.filter-item {
+  flex: 1;
+}
+.filter-item label {
+  display: block;
+  margin-bottom: 8px;
+}
+.filter-item input, .filter-item select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
